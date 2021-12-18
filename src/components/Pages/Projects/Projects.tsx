@@ -17,10 +17,11 @@ export default function Projects() {
                         <li>
                             <div className="body-container">
                                 <div className="body-image-container">
-                                    <img className="body-image" src={process.env.PUBLIC_URL + `./photos/${item.img}`} />
+                                    <img className="body-image" src={process.env.PUBLIC_URL + `./photos/${item.img}`}
+                                        alt={item.img} />
                                 </div>
                                 <div className="body-text-container">
-                                <a href={item.url}><em style={{fontSize: '25px'}}>{item.title}</em></a>
+                                    <a href={item.url}><em style={{ fontSize: '25px' }}>{item.title}</em></a>
                                     <p className="body-text">{item.description}</p>
                                 </div>
                             </div>

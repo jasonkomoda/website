@@ -25,24 +25,25 @@ export default function About() {
                         <div>
                             <div className="contact-container">
                                 <div>
-                                    <img src={process.env.PUBLIC_URL + './photos/phone.png'} alt="phone.png"/>
-                                    <a>(808)-389-3619</a>
+                                    <img src={process.env.PUBLIC_URL + './photos/phone.png'} alt="phone.png" />
+                                    <p>(808)-389-3619</p>
                                 </div>
                                 <div>
-                                    <img src={process.env.PUBLIC_URL + './photos/mail.png'} alt="mail.png"/>
+                                    <img src={process.env.PUBLIC_URL + './photos/mail.png'} alt="mail.png" />
                                     <a href="mailto: jason.komoda@gmail.com">jason.komoda@gmail.com</a>
                                 </div>
                                 <div>
-                                    <img src={process.env.PUBLIC_URL + './photos/linkedin.png'} alt="linkedin.png"/>
+                                    <img src={process.env.PUBLIC_URL + './photos/linkedin.png'} alt="linkedin.png" />
                                     <a href="https://www.linkedin.com/in/jasonkomoda/" >LinkedIn</a>
                                 </div>
                                 <div>
-                                    <img src={process.env.PUBLIC_URL + './photos/github.png'} alt="github.png"/>
+                                    <img src={process.env.PUBLIC_URL + './photos/github.png'} alt="github.png" />
                                     <a href="https://github.com/jasonkomoda/">Github</a>
                                 </div>
                                 <div>
-                                    <img src={process.env.PUBLIC_URL + './photos/resume.png'} alt="resume.png"/>
-                                    <a href={process.env.PUBLIC_URL + './files/JasonKomodaResume.pdf'} target="_blank" >Resume</a>
+                                    <img src={process.env.PUBLIC_URL + './photos/resume.png'} alt="resume.png" />
+                                    <a href={process.env.PUBLIC_URL + './files/JasonKomodaResume.pdf'} target="_blank"
+                                        rel="noopener noreferrer" >Resume</a>
                                 </div>
                             </div>
                         </div>

@@ -16,7 +16,8 @@ export default function Photos() {
                     {PhotoItems.map((item, index) => {
                         return (
                             <div className="image-container">
-                                <img onClick={() => window.open(process.env.PUBLIC_URL + `./photos/${item.img}`)} className="body-image" src={process.env.PUBLIC_URL + `./photos/${item.img}`} />
+                                <img onClick={() => window.open(process.env.PUBLIC_URL + `./photos/${item.img}`)} className="body-image"
+                                    src={process.env.PUBLIC_URL + `./photos/${item.img}`} alt={item.img} />
                             </div>
                         )
                     })}

@@ -26,7 +26,7 @@ export default function Navbar() {
                 {MenuItems.map((item, index) => {
                     return (
                         <li>
-                            <Link onClick={menuClicked ? handleMenuClick : () => {}}
+                            <Link onClick={menuClicked ? handleMenuClick : () => { }}
                                 className={item.cName}
                                 activeClass="active"
                                 onSetActive={handleLinkClick}

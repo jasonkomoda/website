@@ -1,0 +1,21 @@
+.home {
+    .image {
+        opacity: 0.8;
+    }
+
+    .container {
+        height: calc(100vh - 50px);
+    }
+
+    .text {
+        background: black;
+        left: 50%;
+        top: 50%;
+        color: white;
+        position: absolute;
+        padding: 20px;
+        font-size: 40px;
+        transform: translate(-50%, -50%);
+        white-space: nowrap;
+    }
+}

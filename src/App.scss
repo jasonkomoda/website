@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.app {
+  height: 100vh;
+
+  .sections {
+    width: 100%;
+    min-height: calc(100vh - 50px);
+    position: relative;
+    scroll-snap-type: mandatory;
+
+    > *{
+      width: 100vw;
+      transform: translate(0px, 50px);
+      min-height: calc(100vh - 50px);
+      scroll-snap-align: start;
+    }
+  }
+}

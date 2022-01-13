@@ -12,7 +12,7 @@ export const PhotoItems = [
         img: 'monkeys.jpg'
     },
     {
-        img: 'elephant.jpg'
+        img: 'bluelagoon.jpg'
     },
     {
         img: 'fishes.jpg'

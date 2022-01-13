@@ -1,1 +1,1 @@
-This is my personal website that I've recently developed using React. Currently I'm hosting in on my domain www.jasonkomoda.com through Heroku. This was to show people a glimpse of not only my personal life, but also my professional life as a software developer.
+This is my personal website that I've recently developed using React. Currently I'm hosting it on my domain www.jasonkomoda.com through Heroku. It's mainly to show people a glimpse of not only my personal life, but also my professional life as a software developer.

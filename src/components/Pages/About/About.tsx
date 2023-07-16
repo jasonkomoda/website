@@ -8,9 +8,9 @@ export default function About() {
             <p className="intro">
                 Welcome to my page! I'm a motivated software developer that enjoys taking on new challenges and ideas to grow as a programmer.
                 I received my BS in Computer Science (with a focus on game development) from the University of Denver, along with minors in Mathematics and Emergent Digital
-                Practices (Electronic Art). I consider myself a full-stack engineer with a lot of experience in Typescript, Angular, KoaJS, SQL and Cassandra DB.
+                Practices (Electronic Art). I consider myself a full-stack engineer with a lot of experience in Typescript/Javascript, Go, React, Angular, Docker and Kubernetes.
                 I take pride in my ability to learn and adapt quickly in order to produce quality applications. Playing a lot of video games growing up made me
-                get curious about game development and programming in general. I slowly began to realize creating real-world, meaningful applications is just as cool.
+                get curious about game development and programming in general. I realized creating real-world, meaningful applications is just as cool as creating games.
                 I was born and raised on the island of Oahu, Hawaii, went to school in Denver, CO and now currently reside in Henderson, Nevada.
                 When I'm away from my computer I really enjoy golfing, working out, hanging out with friends and relaxing with my dog.
             </p>
@@ -38,7 +38,7 @@ export default function About() {
                                 </div>
                                 <div>
                                     <img src={process.env.PUBLIC_URL + './photos/github.png'} alt="github.png" />
-                                    <a href="https://github.com/jasonkomoda/">Github</a>
+                                    <a href="https://github.com/jkomoda/">Github</a>
                                 </div>
                                 <div>
                                     <img src={process.env.PUBLIC_URL + './photos/resume.png'} alt="resume.png" />

@@ -16,7 +16,7 @@ export default function About() {
             </p>
             <div className="container">
                 <div className="image-container">
-                    <img className="image" src={process.env.PUBLIC_URL + './photos/selfie.jpeg'} alt="selfie.jpg" />
+                    <img className="image" src={process.env.PUBLIC_URL + './photos/selfie.jpg'} alt="selfie.jpg" />
                 </div>
                 <div className="body-container">
                     <p>

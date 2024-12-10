@@ -13,6 +13,7 @@ const FlagLabel: React.FC<FlagLabelProps> = ({ label, flagUrl }) => {
             <img
                 src={flagUrl}
                 style={{ width: '24px', height: '24px', marginRight: '8px' }}
+                alt={flagUrl}
             />
             {/* Label */}
         </div>

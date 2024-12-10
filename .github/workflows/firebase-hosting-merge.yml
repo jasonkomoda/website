@@ -15,9 +15,18 @@ jobs:
         with:
           node-version: 16
       - run: npm install && npm run build
-      - uses: FirebaseExtended/action-hosting-deploy@v0
-        with:
-          repoToken: "${{ secrets.GITHUB_TOKEN }}"
-          firebaseServiceAccount: "${{ secrets.FIREBASE_SERVICE_ACCOUNT_JKOMODA_WEBSITE }}"
-          channelId: live
-          projectId: jkomoda-website
+      # Install Firebase CLI
+      - name: Install Firebase CLI
+        run: |
+          npm install -g firebase-tools@12.9.1
+
+      # Set up Firebase authentication using the service account key
+      - name: Set up Firebase credentials
+        run: |
+          mkdir -p $HOME/.firebase  # Create the .firebase directory
+          echo "${{ secrets.FIREBASE_SERVICE_ACCOUNT_JKOMODA_WEBSITE }}" > $HOME/.firebase/credentials.json
+
+      # Deploy to Firebase Hosting
+      - name: Deploy to Firebase
+        run: |
+          firebase deploy --only hosting --token ${{ secrets.FIREBASE_TOKEN }}
